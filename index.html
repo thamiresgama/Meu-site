@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Definição do Titulo da página na aba navegação -->
+    <title> THAMIRES GAMA | PORTIFÓLIO </title>
+    <!-- Definição de Estilo pelo CSS para corpo, cabeçalho,
+    navegação do cabeçalho, itens da lista de navegação, links de navegação da página -->
+    <!-- Definição de Estilo pelo CSS para as seções, formulários e rodapé da página -->
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9e6e0;
+            color: rgb(33, 33, 34);
+        }
+        header {
+            background-color: #af4c6a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #af4c6a;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 15px;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #af4c6a;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #af4c6a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> THAMIRES GAMA </h1>
+        <!-- Navegação principal -->
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim"> SOBRE MIM </a></li>
+                <li><a href="#formacao"> FORMAÇÃO PROFISSIONAL </a></li>
+                <li><a href="#portfolio"> PROJETOS </a></li>
+                <li><a href="#contato"> CONTATO </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Área principal dos conteúdos por seção -->
+    <main>
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <h1> Eu sou Thamires Gama, estudante de Análise e Desenvolvimento de Sistemas </h1>
+            <h1> Você conhecerá um pouco mais da minha vida profissional através deste portifólio.</h1> <br>
+
+            <p> Sou Thamires Gama, uma vendedora apaixonado(a) por tecnologia e ciência. Com 8 anos de experiência no setor de Varejo. Ao longo da minha vida profissional, desenvolvi uma sólida experiência em vendas e atendimento ao cliente, o que me permitiu muitas conquistas e uma maturidade no ambiente de trabalho. 
+                Minha jornada profissional começou em 2016, onde pude desfrutar do meu primeiro trabalho. Desde então, tive a oportunidade de contribuir para resultados ou impactos positivos na empresa. Auxilio também na parte de Gestão de Redes Sociais. 
+                O que me motiva é apresentar criatividade e inovação em projetos, e minha abordagem é sempre demonstrar dedicação, personalidade e originalidade em todos os trabalhos aparesentados.  Cada conquista para mim é muito significativo. 
+                Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, um sonho de uma segunda graduação que possa agregar a primeira graduação que já possuo em Licenciatura em Geografia. Tenho em mente um sonho de levar para as escolas públicas a possibilidade de estudo da tecnologia, para crianças e adolescentes. 
+             Estou empolgada para enfrentar novos desafios e colaborar com equipes que compartilhem minha paixão que eu, que é aprender e ensinar a quem precisa. 
+            </p>
+        </section>
+        
+        <section id="formacao">
+            <h2>Formação Profissional</h2>
+            <p> Possuo uma formação em Licenciatura em Geografia pela Universidade Estácio de Sá. Durante meus estudos, adquiri conhecimentos sólidos em todas as áreas da Geografia e também na área pedagógica. 
+                Estou com uma graduação em andamento de Análise e Desenvolvimento de Sistema, na Uninter. 
+                Tenho Inglês em nível intermediário, que me permite a escrita e a leitura no idioma estrangeiro. 
+                Como Cursos Complementares: Gestão Empresarial, Informática Básica, Recepcionista em Meios de Hospedagem.
+            </p>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <p>Aqui estão alguns dos projetos que desenvolvi:</p>
+            <p><a href="joias.html" target="_blank"> Veja meu projeto da Loja PURO REQUINTE </a></p>
+            <p><a href="pizzaria.html" target="_blank"> Veja meu projeto da Loja Massa Fina Pizzaria </a></p>
+        </section>
+        <!-- Seção Formulário com seus campos nome, email e mensagem e o botão de envio -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+<!-- Rodapé da Página -->    
+    <footer>
+        <p>&copy; Esse site é somente para fins educativos </p>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página na aba do navegador -->
+    <title> PURO REQUINTE | JOIAS </title>
+    <link rel="stylesheet" href="joias.css">
+</head>
+<body>
+    <header>
+        <h1> PURO REQUINTE </h1>
+        <!-- Navegação principal do site -->
+        <nav>
+            <ul>
+                <li><a href="#sobre"> SOBRE NÓS </a></li>
+                <li><a href="#colecao"> COLEÇÃO </a></li>
+                <li><a href="#contato"> CONTATO </a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Área principal do conteúdo da pizzaria -->     
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Garantimos a qualidade avaliando com seriedade todas as peças, desde quando recebemos da criação e até o momento de preparação e envio para cada um de nossos clientes.
+            Nosso desafio é fazer emergir sua beleza natural, sem sair do conforto de sua casa tornando sua experiência de compra fantástica, única e inesquecível!
+            Colocamos você em primeiro lugar fazendo tudo com muito carinho!</p>
+        </section>
+        
+        <section id="colecao">
+            <h2>Coleção</h2>
+            <div class="card">
+                <img src="colardiamante.jpg" alt="Colar de Diamante">
+                <h3> Colar Diamante</h3>
+                <p>Um deslumbrante colar com diamantes de alta qualidade, perfeito para ocasiões especiais.</p>
+                <p class="preco">R$ 2.500,00</p>
+            </div>
+            <div class="card">
+                <img src="colarrubi.jpg" alt="Colar de Rubi">
+                <h3>Colar Rubi</h3>
+                <p>Elegante colar com rubis, uma peça que adiciona um toque de glamour ao seu look.</p>
+                <p class="preco">R$ 4.000,00</p>
+            </div>
+            <div class="card">
+                <img src="colaresmeralda.png" alt="Colar de Esmeralda">
+                <h3> Colar Esmeralda</h3>
+                <p> Colar fino com esmeraldas, ideal para iluminar seu visual.</p>
+                <p class="preco">R$ 3.000,00</p>
+            </div>
+        </section>
+         <!-- Seção com o formulário e os seus campos -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Puro Requinte. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

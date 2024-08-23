@@ -1,0 +1,110 @@
+/* Configuração do Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030a69;
+    color: rgb(9, 42, 114);
+}
+/* Configuração para o Estilo do cabeçalho da página */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Configuração para o Estilo da navegação principal */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+/* Configuração do Estilo das seções dentro do main */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+/* Configuração do Estilo dos cartões de menu */
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card .preco {
+    font-size: 18px;
+    color: #100970;
+    font-weight: bold;
+}
+/* Configuração do Estilo do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #06149b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #c0392b;
+}
+/* Configuração do Estilo do rodapé da página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+}

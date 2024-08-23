@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página na aba do navegador -->
+    <title> Massa Fina Pizzaria | SITE OFICIAL </title>
+    <link rel="stylesheet" href="pizzaria.css">
+</head>
+<body>
+    <header>
+        <h1> Massa Fina Pizzaria </h1>
+        <!-- Navegação principal do site -->
+        <nav>
+            <ul>
+                <li><a href="#sobre"> SOBRE NÓS </a></li>
+                <li><a href="#menu"> MENU </a></li>
+                <li><a href="#contato"> CONTATO </a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Área principal do conteúdo da pizzaria -->  
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <h3> Renovamos a tradição de fazer a melhor pizza! </h3>
+            <p> Alta qualidade nos ingredientes, tradição no preparo, inovação e talento na criação de sabores únicos.</p>
+        </section>
+        
+        <section id="menu">
+            <h2>Menu</h2>
+            <div class="card">
+                <img src="marguerita.jpg" alt="Pizza Margherita">
+                <h3> Combo Pizza Margherita + Coca Cola</h3>
+                <p>Tomate, mozzarella, manjericão fresco e azeite.</p>
+                <p class="preco">R$ 60,00</p>
+            </div>
+            <div class="card">
+                <img src="pepperoni.jpg" alt="Pizza Pepperoni">
+                <h3> Combo Pizza Pepperoni + Coca Cola</h3>
+                <p>Pepperoni, mozzarella e molho de tomate.</p>
+                <p class="preco">R$ 65,00</p>
+            </div>
+            <div class="card">
+                <img src="quatro-queijos.jpg" alt="Pizza Quatro Queijos">
+                <h3> Combo Pizza Quatro Queijos + Coca Cola </h3>
+                <p>Queijos variados: mozzarella, gorgonzola, parmesão e ricota.</p>
+                <p class="preco">R$ 80,00</p>
+            </div>
+        </section>
+         <!-- Seção com o formulário e os seus campos -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+     <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Massa Fina Pizzaria. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
